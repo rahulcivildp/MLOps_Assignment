@@ -30,8 +30,6 @@ Thumbs.db
 *.log
 
 # Model Files
-saved_models/
-*.pkl
 *.joblib
 
 # Build
