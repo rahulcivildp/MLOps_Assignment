@@ -1,0 +1,51 @@
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual Environments
+venv/
+env/
+.venv/
+ENV/
+
+# Conda
+.conda/
+conda-meta/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDEs
+.vscode/
+.idea/
+
+# OS Files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Model Files
+saved_models/
+*.pkl
+*.joblib
+
+# Build
+build/
+dist/
+*.egg-info/
+
+# Environment Variables
+.env
+
+# Test Coverage
+.coverage
+htmlcov/
+
+# Temporary Files
+*.tmp
+*.temp
