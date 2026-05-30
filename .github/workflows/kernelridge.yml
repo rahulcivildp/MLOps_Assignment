@@ -35,7 +35,15 @@ jobs:
           echo "===== Decision Tree Model ====="
           python train.py
 
-      - name: Run Second Model
+      - name: Run Kernel Ridge Model
         run: |
-          echo "===== Second Model ====="
+          echo "===== Kernel Ridge Model ====="
           python train2.py
+      - name: Run test for Decision Tree Model
+        run: |
+          echo "===== Test Decision Tree Model ====="
+          python test_model_DT.py
+      - name: Run test for Kernel Ridge Model
+        run: |
+          echo "===== Test Kernel Ridge Model ====="
+          python test_model_KR.py
